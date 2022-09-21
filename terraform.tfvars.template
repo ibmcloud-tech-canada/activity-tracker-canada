@@ -1,0 +1,9 @@
+resource_group_name = 
+
+# default = "7-day"
+# activity_tracker_plan =
+
+# Uncomment and provide if you want to pass as variable instead of environment variable
+# ibmcloud_api_key = 
+
+
