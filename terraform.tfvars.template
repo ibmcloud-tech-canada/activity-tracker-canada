@@ -1,9 +1,20 @@
+
+# API Key with authorization to create the resources in this script
+ibmcloud_api_key = 
+
+# Name of existing resource group into which you will provision Activity Tracker.
+# type = string
 resource_group_name = 
 
+# Plan for Activity tracker, 7-day or 30-day
+# type = string
 # default = "7-day"
 # activity_tracker_plan =
 
-# Uncomment and provide if you want to pass as variable instead of environment variable
-# ibmcloud_api_key = 
+# The default will forward local events from all regions that support event routing.  
+# It will also forward global events like IAM events and COS bucket creation events
+# type = list(string)
+# default = ["us-south","us-east","global"]
+# activity_tracker_route_sources = 
 
 
